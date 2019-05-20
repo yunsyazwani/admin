@@ -107,3 +107,7 @@ body {
   padding-bottom: 15px;
   padding-top: 15px;
 }
+
+.card-icon{
+  color: rgba(0, 0, 0, 0.2);
+}
