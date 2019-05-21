@@ -97,8 +97,93 @@ body {
     margin-left: -250px;
 }
 
-#top-menu {
+#content {
     width: 100%;
     min-height: 100vh;
     transition: all 0.3s;
+}
+
+.padding-topbottom{
+  padding-bottom: 15px;
+  padding-top: 15px;
+}
+
+.card-icon{
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+.todo-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: auto;
+  height: 20em;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+.todo-list > li {
+  border-radius: 2px;
+  padding: 10px;
+  background: #f4f4f4;
+  margin-bottom: 2px;
+  border-left: 2px solid #e6e7e8;
+  color: #444;
+}
+
+.todo-list > li:last-of-type {
+  margin-bottom: 0;
+}
+
+.todo-list > li > input[type='checkbox'] {
+  margin: 0 10px 0 5px;
+}
+
+.todo-list > li .text {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.todo-list > li .label {
+  margin-left: 10px;
+  font-size: 9px;
+}
+
+.todo-list > li .tools {
+  display: none;
+  float: right;
+  color: #dc3545;
+}
+
+.todo-list > li .tools > .fa, .todo-list > li .tools > .glyphicon, .todo-list > li .tools > .ion {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.todo-list > li:hover .tools {
+  display: inline-block;
+}
+
+.todo-list .handle {
+  display: inline-block;
+  cursor: move;
+  margin: 0 5px;
+}
+
+footer{
+      padding: 0.5rem 1rem;
+      border-top: 1px solid #c9cdd0 !important;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+}
+
+.bg-light {
+    background-color: #eaeaea !important;
 }
