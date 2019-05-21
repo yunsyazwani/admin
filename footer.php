@@ -26,6 +26,7 @@ $(function () {
 
 	// datatable
    	$('#example').DataTable({
+   		"scrollX": true
 	// 	'fnDrawCallback': function (oSettings) {
 	// 	$('.dataTables_length').each(function () {
 	// 		$(this).append('<a href="" class="btn btn-success btn-sm" style="margin-left:15px">Add</a>');

@@ -55,6 +55,10 @@ body {
 
 }
 
+.nav-item{
+  padding: 2px 0px;
+}
+
 .white-text{
   color: #eee;
 }
@@ -186,4 +190,7 @@ footer{
 
 .bg-light {
     background-color: #eaeaea !important;
+}
+.active2{
+  background-color: #959a9a;
 }
