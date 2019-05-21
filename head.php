@@ -3,6 +3,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin</title>
 
+    <link href="dist/css/jquery-ui.css" rel="stylesheet" />
     <link href="dist/css/bootstrap.css" rel="stylesheet" />
     <link href="dist/css/dataTables.bootstrap.css" rel="stylesheet" />
     <link href="dist/css/fontawesome.css" rel="stylesheet" />
