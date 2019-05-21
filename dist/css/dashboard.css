@@ -175,3 +175,15 @@ body {
   cursor: move;
   margin: 0 5px;
 }
+
+footer{
+      padding: 0.5rem 1rem;
+      border-top: 1px solid #c9cdd0 !important;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+}
+
+.bg-light {
+    background-color: #eaeaea !important;
+}

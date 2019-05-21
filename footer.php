@@ -16,13 +16,22 @@
 <script type="text/javascript">
 $(function () {
 
-  // jQuery UI sortable for the todo list
-  $('.todo-list').sortable({
+	// jQuery UI sortable for the todo list
+	$('.todo-list').sortable({
     placeholder         : 'sort-highlight',
     handle              : '.handle',
     forcePlaceholderSize: true,
     zIndex              : 999999
   })
+
+	// datatable
+   	$('#example').DataTable({
+	// 	'fnDrawCallback': function (oSettings) {
+	// 	$('.dataTables_length').each(function () {
+	// 		$(this).append('<a href="" class="btn btn-success btn-sm" style="margin-left:15px">Add</a>');
+	// 	});
+	// } 
+   	});
 
 })
 </script>

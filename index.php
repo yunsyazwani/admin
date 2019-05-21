@@ -7,6 +7,8 @@
 
       		<div id="content">
       			<?php include("top-menu.php"); ?>
+
+      			<!--start content-->
 			      <div class="row">
 			      	<div class="col-md-4 padding-topbottom">
 			      		<div class="card text-white bg-success">
@@ -149,8 +151,13 @@
 						</div>
 			      	</div>
 			      </div>
+			    <!--end content-->
+				<footer class="bg-light">
+		      		<label>© Company 2019</label>
+		      	</footer>
 			</div>
       	</div>
+
     </body>
   <?php include("footer.php"); ?>
 
