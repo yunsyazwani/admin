@@ -29,7 +29,7 @@
 						</div>
 						<div class="form-group">
 						  <label for="file">Upload file</label>
-						  <input type="file" class="form-control" id="pdfInp" placeholder="">
+						  <input type="file" class="form-control" id="pdf" placeholder="">
 						</div>
 						<div class="form-group">
 						   <label for="location">Example select</label>
@@ -43,7 +43,13 @@
 						 </div>
 					</div>
 					<div class="col-md-6">
-						 <div id="holder" style="border:1px solid #d8d7d7;min-height:420px;"></div>
+						<div>
+						  <button id="prev">Previous</button>
+						  <button id="next">Next</button>
+						  &nbsp; &nbsp;
+						  <span>Page: <span id="page_num"></span> / <span id="page_count"></span></span>
+						</div>
+						<canvas id="the-canvas"></canvas>
 					</div>
       			</div>
 

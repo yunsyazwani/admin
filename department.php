@@ -13,12 +13,42 @@
       				<div class="col-md-12 padding-topbottom">
 	      				<div class="card">
 						  <div class="card-body">
-						  	<a href="form_file.php" class="btn btn-primary right">Add Department</a>
+						  <button type="button" class="btn btn-primary right" data-toggle="modal" data-target="#ModalDept">
+							  Add Department
+							</button>
 						    <h4>Deparment</h4>
 						  </div>
 						</div>
 					</div>
       			</div>
+
+
+				<!-- Modal -->
+				<div class="modal fade" id="ModalDept" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog" role="document">
+					<form role="form" action="" method="post" enctype="multipart/form-data">
+					    <div class="modal-content">
+					      <div class="modal-header">
+					        <h5 class="modal-title" id="exampleModalLabel">Add Location</h5>
+					        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					          <span aria-hidden="true">&times;</span>
+					        </button>
+					      </div>
+					      <div class="modal-body">
+					         <div class="form-group">
+							    <label for="name">Department Name</label>
+							    <input type="text" class="form-control" id="name" placeholder="">
+							  </div>
+					      </div>
+					      <div class="modal-footer">
+					        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+					        <button type="button" class="btn btn-primary">Save changes</button>
+					      </div>
+					    </div>
+					</form>
+				  </div>
+				</div>
+				<!-- end Modal -->
 
       			<table id="example" class="table table-striped table-bordered" style="width:100%">
 			        <thead>
