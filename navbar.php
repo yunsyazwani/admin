@@ -30,7 +30,7 @@
 		    </div>
 		    <li class="nav-item">
 		      <a href="department.php" class="nav-link <?php if ($current_page == "department.php"){ echo "active "; }?>" id="" role="tab">
-		      <i class="fas fa-building fa-fw"></i> Location</a>
+		      <i class="fas fa-building fa-fw"></i> Department</a>
 		  	</li>
 		</ul>
       </div>
